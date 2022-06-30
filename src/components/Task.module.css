@@ -1,0 +1,42 @@
+.task {
+  border: 1px solid var(--gray-300);
+  display: grid;
+  grid-template-columns: 5% 1fr 10%;
+  padding: 1rem;
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.taskCheckBoxArea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.taskCheckBoxArea img {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.task > p {
+  font-size: 1.2rem;
+  color: var(--gray-100);
+}
+
+.task p.completed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.task .trashArea {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.task .trashArea img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}

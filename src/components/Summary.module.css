@@ -1,0 +1,35 @@
+.summaryArea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summaryAreaParagraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.summaryAreaParagraph > p {
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.summaryAreaParagraph > p.doneLabel {
+  color: var(--purple);
+}
+
+.summaryNumber {
+  display: inline-block;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  font-weight: 700;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+}

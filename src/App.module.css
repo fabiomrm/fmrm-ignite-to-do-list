@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputWrapper {
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+}
+
+.emptyArea {
+  border-top: 1px solid var(--gray-300);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.emptyArea h3,
+.emptyArea p {
+  color: var(--gray-300);
+}
+
+.emptyArea h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.emptyArea p {
+  font-size: 1.25rem;
+}
